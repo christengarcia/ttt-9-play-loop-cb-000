@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  turn = 0
+  turn = turn(board)
   loop do
   turn += 1
   if turn >= 9
